@@ -34,7 +34,7 @@
 	});
 </script>
 
-<div class="min-h-screen grid justify-items-center items-center my-32">
+<div class="min-h-screen grid justify-items-center items-center px-8 my-32">
 	{#if !animation_finished}
 		<div class="row-start-1 col-start-1 flex">
 			<p
@@ -50,7 +50,7 @@
 			<div out:fade={{ duration: 400 }} class="border border-text h-12"></div>
 		</div>
 	{:else}
-		<div in:fade class="m-8 w-full max-w-7xl gap-16 xl:gap-4 row-start-1 col-start-1">
+		<div in:fade class="w-full max-w-7xl gap-16 xl:gap-4 row-start-1 col-start-1">
 			<h2 class="text-mauve text-5xl">About Me</h2>
 			<p class="my-8 text-lg">
 				I am an 18 year old developer from Sweden. I enjoy a variety of programming related things,
