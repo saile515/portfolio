@@ -6,6 +6,10 @@
 	import Contact from '../lib/contact.svelte';
 </script>
 
+<svelte:head>
+	<title>Elias Jörgensen</title>
+</svelte:head>
+
 <div class="overflow-x-hidden text-text font-mono">
 	<Head />
 	<About />
