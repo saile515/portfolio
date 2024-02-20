@@ -1,0 +1,19 @@
+{
+	"projects": [
+		{
+			"name": "Twodo",
+			"description": "Twodo is minimal 2D engine built on WebGL. It creates abstractions for WebGL calls, while still allowing for low level control. Currently in the alpha stage of development.",
+			"image": "/twodo.png"
+		},
+		{
+			"name": "Three SVG",
+			"description": "Three SVG is a program that converts three-dimentional scenes to SVG. It is built with C++, and is my examination project for Swedish upper secondary school",
+			"image": "/monkey.svg"
+		},
+		{
+			"name": "templtr",
+			"description": "templtr is an HTML templating framework that generates static sites. It supports dynamic data population, file embedding, markdown parsing, among other things.",
+			"image": "/templtr.png"
+		}
+	]
+}

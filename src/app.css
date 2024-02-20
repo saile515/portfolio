@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hljs-string {
+	@apply text-green;
+}
+
+.hljs-meta,
+.hljs-keyword,
+.hljs-type {
+	@apply text-mauve;
+}
+
+.hljs-title {
+	@apply text-blue;
+}
+
+.hljs-number {
+	@apply text-peach;
+}
+
+.hljs {
+	@apply text-text;
+}
