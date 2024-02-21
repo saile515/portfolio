@@ -2,24 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Noto";
+    src: url("/noto-sans.ttf");
+}
+
 .hljs-string {
-	@apply text-green;
+    @apply text-green;
 }
 
 .hljs-meta,
 .hljs-keyword,
 .hljs-type {
-	@apply text-mauve;
+    @apply text-mauve;
 }
 
 .hljs-title {
-	@apply text-blue;
+    @apply text-blue;
 }
 
 .hljs-number {
-	@apply text-peach;
+    @apply text-peach;
 }
 
 .hljs {
-	@apply text-text;
+    @apply text-text;
 }
