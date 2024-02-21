@@ -40,7 +40,7 @@
 }
 
 .article pre {
-    @apply bg-mantle p-4 rounded-lg;
+    @apply bg-mantle p-4 rounded-lg overflow-x-auto;
 }
 
 .article code {
