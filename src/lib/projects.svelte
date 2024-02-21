@@ -27,7 +27,7 @@
 		<h2 class="text-5xl text-mauve mb-16">Projects</h2>
 		<div
 			in:fly={{ y: 300, duration: 1000, delay: 500 }}
-			class="grid grid-cols-1 sm:grid-flow-col sm:auto-cols-auto gap-8"
+			class="grid grid-cols-1 xl:grid-flow-col sm:auto-cols-auto gap-8"
 		>
 			{#each projects as project}
 				<Project {...project} />

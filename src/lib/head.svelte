@@ -14,12 +14,12 @@
 	const highlighted_code = hljs.highlight(code, { language: 'cpp' }).value;
 </script>
 
-<div class="flex flex-col xl:flex-row h-screen w-full">
+<div class="flex flex-col xl:flex-row min-h-screen w-full">
 	<div class="flex flex-col justify-center p-8 pt-16 2xl:px-24">
-		<h1 class="text-mauve font-mono text-5xl 2xl:text-8xl">Elias Jörgensen</h1>
+		<h1 class="text-mauve font-mono text-5xl 2xl:text-8xl my-2">Elias Jörgensen</h1>
 		<p class="text-xl 2xl:text-4xl">Fullstack and systems developer</p>
 	</div>
-	<div class="w-full h-full flex justify-center items-center">
+	<div class="w-full flex justify-center items-center">
 		{#if ready}
 			<div
 				in:fly={{ x: 100, duration: 1000, delay: 500 }}
