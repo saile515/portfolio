@@ -1,5 +1,14 @@
 <script lang="ts">
 	import '../../../app.css';
+    import { onMount } from 'svelte'
+    import hljs from 'highlight.js'
+    import hljs_svelte from 'highlightjs-svelte'
+
+    hljs_svelte(hljs);
+
+    onMount(() => {
+        hljs.highlightAll();
+    })
 
 	export let data;
 </script>
@@ -7,7 +16,7 @@
 <div class="flex justify-center text-text font-mono">
 	<div class="w-full max-w-7xl p-8">
 		<div class="my-8">
-			<h1 class="text-4xl xl:text-7xl">{data.article.metadata.title}</h1>
+			<h1 class="text-4xl xl:text-7xl text-mauve">{data.article.metadata.title}</h1>
 			<div class="text-lg">
 				{data.article.metadata.author} —
 				<span>{data.article.metadata.date_published}</span>
@@ -16,7 +25,7 @@
 				{/if}
 			</div>
 		</div>
-		<div class="font-sans text-lg leading-loose">
+		<div class="font-sans text-lg leading-loose article">
 			{@html data.article.content}
 		</div>
 	</div>
