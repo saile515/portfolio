@@ -14,6 +14,11 @@
     export let data;
 </script>
 
+<svelte:head>
+    <title>{data.article.metadata.title} — Elias Jörgensen</title>
+    <meta name="description" content={`Elias Jörgensen — Blog — ${data.article.metadata.title}`} />
+</svelte:head>
+
 <div class="flex justify-center text-text font-mono">
     <div class="w-full max-w-7xl p-8">
         <div class="my-8">

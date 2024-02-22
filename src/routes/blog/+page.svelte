@@ -4,6 +4,11 @@
     export let data;
 </script>
 
+<svelte:head>
+    <title>Blog — Elias Jörgensen</title>
+    <meta name="description" content="Elias Jörgensen — Blog" />
+</svelte:head>
+
 <div class="flex flex-col min-h-screen justify-center items-center text-text font-mono">
     <h1 class="text-mauve text-4xl mb-4">Blog</h1>
     <div class="flex flex-col w-full p-4 max-w-xl gap-8">
