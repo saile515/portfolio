@@ -20,7 +20,7 @@
         use:enhance
         class="flex flex-col w-full max-w-xl text-lg bg-mantle p-4 xl:p-8 rounded-xl relative">
         <h2 class="text-mauve text-5xl mb-4" id="contact">Contact</h2>
-        <div class={`absolute top-8 right-8 max-w-64 ${$page.form?.success ? "text-green" : "text-red"}`}>
+        <div class={`xl:absolute top-8 right-8 max-w-64 ${$page.form?.success ? "text-green" : "text-red"}`}>
             {#if $page.form?.message}
                 {$page.form.message}
             {/if}
