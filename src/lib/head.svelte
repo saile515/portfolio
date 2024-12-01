@@ -4,6 +4,10 @@
     import cpp from "highlight.js/lib/languages/cpp";
     import { onMount } from "svelte";
     import { fly } from "svelte/transition";
+    import GithubIcon from "./github.svelte"
+    import LinkedInIcon from "./linkedin.svelte"
+    import DiscordIcon from "./discord.svelte"
+    import EmailIcon from "./email.svelte"
 
     let ready = false;
     onMount(() => {
@@ -15,6 +19,12 @@
 </script>
 
 <div class="flex flex-col xl:flex-row min-h-screen w-full">
+    <ul class="flex fixed top-4 right-8 text-xl gap-4 p-2 rounded-full text-mauve bg-base">
+        <li><a href="https://github.com/saile515" target="_blank"><GithubIcon class="size-6" /></a></li>
+        <li><a href="https://www.linkedin.com/in/elias-j%C3%B6rgensen-907552292/" target="_blank"><LinkedInIcon class="size-6" /></a></li>
+        <li><a href="https://discord.com/users/481848217303121920" target="_blank"><DiscordIcon class="size-6" /></a></li>
+        <li><a href="mailto:elias.jorgensen2006@gmail.com" target="_blank"><EmailIcon class="size-6" /></a></li>
+    </ul>
     <div class="flex flex-col justify-center p-8 pt-16 2xl:px-24">
         <h1 class="text-mauve font-mono text-5xl 2xl:text-8xl my-2">Elias Jörgensen</h1>
         <p class="text-xl 2xl:text-4xl">Fullstack and systems developer</p>
