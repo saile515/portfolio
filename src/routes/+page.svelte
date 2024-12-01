@@ -3,7 +3,6 @@
     import Head from "../lib/head.svelte";
     import About from "../lib/about.svelte";
     import Projects from "../lib/projects.svelte";
-    import Contact from "../lib/contact.svelte";
 </script>
 
 <svelte:head>
@@ -15,5 +14,4 @@
     <Head />
     <About />
     <Projects />
-    <Contact />
 </div>

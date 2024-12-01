@@ -3,46 +3,46 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Noto";
-    src: url("/noto-sans.ttf");
+  font-family: "Noto";
+  src: url("/noto-sans.ttf");
 }
 
 .hljs-string {
-    @apply text-green;
+  @apply text-green;
 }
 
 .hljs-meta,
 .hljs-keyword,
 .hljs-type,
 .hljs-name {
-    @apply text-mauve;
+  @apply text-mauve;
 }
 
 .hljs-title {
-    @apply text-blue;
+  @apply text-blue;
 }
 
 .hljs-number,
 .hljs-attr {
-    @apply text-peach;
+  @apply text-peach;
 }
 
 .hljs {
-    @apply text-text;
+  @apply text-text;
 }
 
 .article p {
-    @apply mb-4;
+  @apply mb-4;
 }
 
 .article h2 {
-    @apply text-2xl font-mono text-mauve mt-10;
+  @apply text-2xl font-mono text-mauve mt-10;
 }
 
 .article pre {
-    @apply bg-mantle p-4 rounded-lg overflow-x-auto;
+  @apply bg-mantle p-4 rounded-lg overflow-x-auto;
 }
 
 .article code {
-    @apply bg-mantle p-1 rounded;
+  @apply bg-mantle p-1 rounded;
 }

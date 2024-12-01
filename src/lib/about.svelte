@@ -4,7 +4,7 @@
 	import { onMount } from 'svelte';
 	import { is_mobile } from '.';
 
-	const line = '>1000 commits in over 50 repositories throughout 5+ years';
+	const line = '>1000 commits in over 50 repositories throughout 6+ years';
 	let displayed_line = '';
 
 	let animation_started = false;
@@ -53,50 +53,39 @@
 		<div in:fade class="w-full max-w-7xl gap-16 xl:gap-4 row-start-1 col-start-1">
 			<h2 class="text-mauve text-5xl">About Me</h2>
 			<p class="my-8 text-lg">
-				I am an 18 year old developer from Sweden. I enjoy a variety of programming related things,
-				including low-level programming, web development, and Linux. I am currently finishing my
-				last year in upper secondary school here in Sweden, and I am expecting to graduate this
-				June. When I am not programming, I also enjoy listening to metal music, playing electric
-				guitar, being outdoors, reading, and optimizing my workflow. Some of my long term dreams
-				include writing an operating system, building a computer from electrical components, and
-				building my own house.
-			</p>
+                I am an 18 year old developer from Sweden, currently working at SkyTech AB. I enjoy a variety of programming 
+                related things, including low-level programming, web development, and Linux. When I am not programming, 
+                I also enjoy listening to metal music, playing electric guitar, being outdoors, and optimizing
+                my workflow.			
+            </p>
 			<div class="space-y-16 xl:space-y-0 xl:flex justify-between my-12">
 				<div>
 					<h3 class="text-mauve text-3xl">Languages</h3>
-					<h4 class="text-mauve text-xl">Fluent</h4>
 					<ol class="text-lg">
-						<li>TypeScript</li>
-						<li>C++</li>
 						<li>English</li>
 						<li>Swedish</li>
-					</ol>
-					<h4 class="text-mauve text-xl mt-4">Basic Knowledge</h4>
-					<ol class="text-lg">
-						<li>Assembly (NASM)</li>
+						<li>TypeScript</li>
+						<li>C++</li>
 						<li>C#</li>
-						<li>Lua</li>
-						<li>Python</li>
+                        <li class="text-sm">+ many I have limited experienced with.</li>
 					</ol>
 				</div>
 				<div>
 					<h3 class="text-mauve text-3xl">Other Technologies</h3>
 					<ol class="text-lg">
-						<li>Node.js</li>
-						<li>Linux</li>
-						<li>Strapi</li>
-						<li>Hetzner</li>
-						<li>PostgreSQL</li>
-						<li>MongoDB</li>
+                        <li>React</li>
 						<li>Next.js</li>
 						<li>TailwindCSS</li>
-						<li>Git(hub)</li>
-						<li>and more</li>
+						<li>Linux</li>
+						<li>Hetzner</li>
+						<li>Git</li>
+						<li>SQL-Databases</li>
+						<li class="text-sm">...and more</li>
 					</ol>
 				</div>
 				<img
 					src="/photo.jpg"
-					alt="Me on a hike."
+					alt="A picture of Elias Jörgensen."
 					class="aspect-square rounded-full object-cover object-top w-full sm:max-w-xs"
 				/>
 			</div>
