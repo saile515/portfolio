@@ -67,7 +67,7 @@
 						<li>TypeScript</li>
 						<li>C++</li>
 						<li>C#</li>
-                        <li class="text-sm">+ many I have less substantial experienced with.</li>
+                        <li class="text-sm">+ many I have less substantial experience with.</li>
 					</ol>
 				</div>
 				<div>
