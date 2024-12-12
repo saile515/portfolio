@@ -67,7 +67,7 @@
 						<li>TypeScript</li>
 						<li>C++</li>
 						<li>C#</li>
-                        <li class="text-sm">+ many I have limited experienced with.</li>
+                        <li class="text-sm">+ many I have less substantial experienced with.</li>
 					</ol>
 				</div>
 				<div>
@@ -85,7 +85,7 @@
 				</div>
 				<img
 					src="/photo.jpg"
-					alt="A picture of Elias Jörgensen."
+					alt="Me on a hike."
 					class="aspect-square rounded-full object-cover object-top w-full sm:max-w-xs"
 				/>
 			</div>
