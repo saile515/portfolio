@@ -53,7 +53,7 @@
 		<div in:fade class="w-full max-w-7xl gap-16 xl:gap-4 row-start-1 col-start-1">
 			<h2 class="text-mauve text-5xl">About Me</h2>
 			<p class="my-8 text-lg">
-                I am an 18 year old developer from Sweden, currently working at SkyTech AB. I enjoy a variety of programming 
+                I am an 19 year old developer from Sweden, currently working at SkyTech AB. I enjoy a variety of programming 
                 related things, including low-level programming, web development, and Linux. When I am not programming, 
                 I also enjoy listening to metal music, playing electric guitar, being outdoors, and optimizing
                 my workflow.			
